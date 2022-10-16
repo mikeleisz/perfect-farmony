@@ -5,7 +5,8 @@ html, body {
 }
 
 canvas {
-  display: block;
-  width: 100%;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);    
 }
